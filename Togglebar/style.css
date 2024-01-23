@@ -51,3 +51,42 @@ body {
 .switch:checked + .label::before {
   transform: translateX(30px);
 }
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.5)),
+    url("https://rsrahaman.github.io/Agency-Home/Image/bannar-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.content {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.container h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.container p {
+  font-size: 20px;
+}
